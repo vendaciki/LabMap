@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+        <!-- ikonka polohy -->
+        <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css"> 
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="icon" type="image/x-icon" href="./icon.png">
+        
+        <title>LabMapa</title>
+
+    </head>
+
+
+    <body onload="nactiLabky()">
+
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+
+        <div id="sidebar" class="sidebar">
+            <h1>Seznam labek</h1>
+            <div class="seznam">
+                <input type="text" id="mySearch" onkeyup="SidebarSearch()" placeholder="Najdi Labku">            
+            </div>
+            <div class="noveLab">
+                <h3>&#8595; Nově přidané &#8595;</h3>
+            </div>
+            <ul id="myMenu">
+            </ul> 
+        </div>
+
+        <header>
+            <img class="header" src="header.png" alt="LabCache">
+            <div>
+                <img class="labImg" src="icon.png">
+                <a href="https://labgpx.cz/" target="_blank">Pomocník na Labky</a>
+            </div>
+            
+        </header>
+
+        <main>
+
+            <aside>
+                <h1>INFO O LABCE</h1>
+                <section class="nazev-kese">
+                    <h2><i class="fa fa-fw fa-user"></i>&nbsp;Název labky</h2>
+                    <p class="info" id="nazev_kese_zde"></p>
+                </section>
+                <section class="odpovedi">
+                    <h2><i class="fa fa-fw fa-edit"></i>&nbsp;Odpovědi</h2>
+                    <p class="info" id="odpovedi"></p>
+                </section>
+                <section class="odkaz">
+                    <h2><i class="fa fa-fw fa-location-arrow"></i>&nbsp;Odkaz</h2>
+                    <a id="odkaz" target = '_blank'></a><br>
+                    <a id="bonus" target = '_blank'></a>
+                </section>
+            </aside>
+
+            <div id="map"></div>
+
+        </main>
+
+        <footer>
+            Aktualizováno den: <b>01.02.2023</b><br>
+            <a href="mailto:LabCache@email.cz">LabCache@email.cz</a>
+        </footer>
+
+        <script type="text/javascript" src="data.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        
+    </body>
+
+</html>
