@@ -1,5 +1,10 @@
 const data = [
 
+    {nazev: "Keukenhofbos (laarzenversie)" , coords:[52.2690000, 4.5397500] , odpoved: "Eendenhuis - 4\nKabouter-en laarzenpad - groen\nScouting - graaf\nBeukenbos - groen\nHet LAM - 12",  labs: "https://labs.geocaching.com/goto/2e137f31-6070-4105-a534-0d3162232e2a" , bonus: "https://coord.info/GC90H68" },
+    {nazev: "Kunstwerken van Lisse" , coords:[52.2579833, 4.5582667] , odpoved: "Groot Nieuw Beest - 16\nDe Bollenreiziger - een sigaar\nTwee Vogels - mykonos\nCircle of Love - koop centrum lisse\nWindkracht 8 - driehoek",  labs: "https://labs.geocaching.com/goto/kunstwerkenvanlisse" , bonus: "https://coord.info/GC8W8ZB" },
+    {nazev: "Rondje Van Lyndenweg" , coords:[52.2643333, 4.5506833] , odpoved: "Nabij Keukenhof - joost van den vondel\nIn de bocht - groen\nHet Vierkant - albert heijn\nSportvelden - na 150 m links\nDe rotonde - amalia",  labs: "https://labs.geocaching.com/goto/c5d59bfb-a134-4da1-81bf-0627f72c4892" , bonus: "https://coord.info/ GC8RCN8" },
+    {nazev: "Praha Lego nádraží" , coords:[50.0833667, 14.4343667] , odpoved: "Řidič má být veselý - skateboard\nHrdina z komiksu - radioactive man\nKostlisti na výletě - darth vader\nPodchod - fabuland\nMoc moc kostiček - 342383",  labs: "https://labs.geocaching.com/goto/ f3a9b828-85e3-4630-90f5-fcddd60b6b66" },
+
     {nazev: "STEZKA ÚDOLÍM LUŽNICE TOULAVOU 1" , coords:[49.3516833, 14.7039000] , odpoved: "Rozcestník - europe\nTánořiště Soukeník - 3010\nTuristický rozcestník-Nové Město Ústí - 1420\nRozhledna Hýlačka - 2015\nPramen Sv. Eleonory - 8",  labs: "https://labs.geocaching.com/goto/ fc4629f8-f5f5-47e4-bae0-31494cb0102d" },
     {nazev: "Pamětihodnosti v Plané nad Lužnicí" , coords:[49.3511000, 14.6994833] , odpoved: "Kaple sv. Barbory - 1\nGalerie Fara a Malé plánské muzeum - 132033\nKostel sv. Václava - 136\nSocha sv. Jana Nepomuckého - sr12\nPortíkova vila - 38635",  labs: "https://labs.geocaching.com/goto/9fa8af55-2a8b-4a0f-881e-3811bafa35eb" },
 
