@@ -1,5 +1,6 @@
 const data = [
 
+    {nazev: "Airport Hurghada" , coords:[27.1807500, 33.8085833] , odpoved: "Airline #1 - condor\nAirline #2 - egyptair\nAirline #3 - transavia\nAirline #4 - air canada\nAirline #5 - etihad",  labs: "https://labs.geocaching.com/goto/124db573-4473-45c8-99ef-ffb52a7e162d" },
     {nazev: "Šalinou z Kampusu do Líšně" , coords:[49.1758500, 16.5673333] , odpoved: "Kampus - 13166172\nBěloruská - jedním slovem\nNové sady - 30\nŽidovský hřbitov - 50\nMifkova - 0890029",  labs: "https://labs.geocaching.com/goto/6378ce01-1406-4d15-ac53-768ed49a165b" , bonus: "https://coord.info/GCAP4T3" },
     {nazev: "Bienvenue à Djerba" , coords:[33.8712667, 10.7742333] , odpoved: "Lab 1 - dje\nLab 2 - dttj\nLab 3 - 3100m\nLab 4 - 1970\nLab 5 - 6m",  labs: "https://labs.geocaching.com/goto/5622dc10-3fdd-4b79-9ca9-b6e57b0800c8" },
     {nazev: "Kačeři na lovu Adventure lab 3" , coords:[49.1948000, 16.6086000] , odpoved: "Adventure lab 1 - 40\nAdventure lab 2 - CWG směnárna\nAdventure lab 3 - Mekgajver\nAdventure lab 4 - Earthka\nAdventure lab 5 - Kachnička mandarinská",  labs: "https://labs.geocaching.com/goto/ 8a96969d-270b-40d8-921e-de91ca9d9ece" },
